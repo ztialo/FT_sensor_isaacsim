@@ -27,7 +27,7 @@ from isaaclab.scene import InteractiveScene, InteractiveSceneCfg
 from isaaclab.assets import AssetBaseCfg, RigidObjectCfg
 import isaacsim.core.utils.stage as stage_utils
 from isaacsim.core.api.robots import RobotView
-from coinft_cfg import COINFT_CFG
+from src.config.coinft_cfg import COINFT_CFG
 
 @configclass
 class SceneCfg(InteractiveSceneCfg):
